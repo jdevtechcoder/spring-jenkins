@@ -13,7 +13,7 @@ public class SpringJenkinsApplication {
 	@GetMapping("/ping")
 	public String message() {
 		System.out.println("jenkins test");
-		return "Wao!! Application Deployed successfully in SAP Cloud....";
+		return "Wao!! Application Deployed successfully in SAP Cloud.";
 	}
 
 	public static void main(String[] args) {
