@@ -16,7 +16,7 @@ public class SpringJenkinsApplication {
 		return "Wao!! Application Deployed successfully in SAP Cloud....";
 	}
 
-	public static void main(String[] args) 
+	public static void main(String[] args) {
 		SpringApplication.run(SpringJenkinsApplication.class, args);
 	}
 
